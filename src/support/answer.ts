@@ -5,7 +5,7 @@ const client = new Anthropic();
 
 export async function answerQuestion(question: string) {
   const response = await client.messages.create({
-    model: 'claude-opus-4-5',
+    model: 'claude-opus-5-5',
     max_tokens: 1024,
     messages: [{ role: 'user', content: question }],
   });
