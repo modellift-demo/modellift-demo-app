@@ -1,0 +1,14 @@
+{
+  "name": "modellift-demo-app",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Illustrative TypeScript service used to demonstrate ModelLift. Not intended to be run.",
+  "type": "module",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.125.0",
+    "openai": "^7.15.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  }
+}
